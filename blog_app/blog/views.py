@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-post = [
+posts = [
     {
         'author': 'Pritom Bhowmik',
         'title': 'Deep Learning',
@@ -14,13 +14,24 @@ post = [
         'content': 'Machine Learning is a new Electricity',
         'date_posted': 'August 25, 2020'
 
+    },
+
+    {
+        'author': 'Denial Roy',
+        'title': 'AI in the edge of Developmnet',
+        'content': 'Data Science, Machine Learning, Deep Learning',
+        'date_posted': 'March 22, 2020'
+
     }
 
 ]
 
 
 def home(request):
-    return render(request, 'blog/home.html')
+    context = {
+        'posts': posts
+    }
+    return render(request, 'blog/home.html', context)
 
 
 def about(request):

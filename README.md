@@ -1,2 +1,2 @@
 # Blog_Application
-Python Django 
+Python Django || HTML5 || CSS3 || Bootstrap

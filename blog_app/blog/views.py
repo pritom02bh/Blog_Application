@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Post
+from .models import post
 
 posts = [
     {

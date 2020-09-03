@@ -30,7 +30,7 @@ posts = [
 
 def home(request):
     context = {
-        'posts': Post.objetcs.all()
+        'posts': Post.objects.all()
     }
     return render(request, 'blog/home.html', context)
 

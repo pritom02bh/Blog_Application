@@ -20,7 +20,7 @@ def register(request):
 
 @login_required
 def profile(request):
-    U_form = UserUpdateForm()
+    u_form = UserUpdateForm()
     p_form = ProfileUpdateForm()
 
     context = {

@@ -1,3 +1,3 @@
 # Blog_Web_Application
-Python Django
+A web application where people can create their own page.
 

@@ -1,3 +1,3 @@
 # Blog_Web_Application
-A web application where people can create their own profile and post 
+A web application where people can create their own profile and make a post.
 

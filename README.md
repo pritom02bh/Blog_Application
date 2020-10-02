@@ -1,3 +1,5 @@
-# Blog_Web_Application
+Web Application
+
+Blog/article sharing web application.
 
 
